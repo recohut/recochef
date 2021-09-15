@@ -1,0 +1,21 @@
+recochef package
+================
+
+Submodules
+----------
+
+recochef.skeleton module
+------------------------
+
+.. automodule:: recochef.skeleton
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: recochef
+   :members:
+   :undoc-members:
+   :show-inheritance:

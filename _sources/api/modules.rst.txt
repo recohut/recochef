@@ -1,0 +1,7 @@
+recochef
+========
+
+.. toctree::
+   :maxdepth: 4
+
+   recochef
