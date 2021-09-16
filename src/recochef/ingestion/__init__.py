@@ -12,9 +12,6 @@ class IngestionFactory:
     """
     This is a wrapper class to assist in data ingestion process
     """
-    def __init__(args):
-        pass
-
     @classmethod
     def available_datasets(cls):
         return list(DATASETS.keys())
@@ -25,5 +22,4 @@ class IngestionFactory:
 
     @classmethod
     def ingest(cls, dataset_code, path):
-        dataset = DATASETS[dataset_code]
-        dataset.ingest(path)
+        DATASETS[dataset_code].ingest(path)
